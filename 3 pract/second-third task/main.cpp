@@ -42,5 +42,6 @@ int main() {
         obj = arr[i];
         obj.show();
     };
+    delete[] arr;
     return 0;
 };
